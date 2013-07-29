@@ -2,11 +2,12 @@ package com.bragin.AnalogClock;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.view.View;
+import android.widget.ImageView;
 import com.bragin.AnalogClock.objects.ClockFace;
 import com.bragin.AnalogClock.objects.HourHand;
 import com.bragin.AnalogClock.objects.MinuteHand;
 import com.bragin.AnalogClock.objects.SecondsHand;
+import com.bragin.AnalogClock.utils.TimeUtils;
 
 import java.util.Calendar;
 
@@ -16,7 +17,7 @@ import java.util.Calendar;
  * @author a_bragin
  * @since 28.07.13 20:39
  */
-public class AnalogClockView extends View {
+public class AnalogClockView extends ImageView {
 
 	private Calendar time;
 	private ClockFace clockFace;
@@ -24,12 +25,16 @@ public class AnalogClockView extends View {
 	private MinuteHand minuteHand;
 	private SecondsHand secondsHand;
 
-	public AnalogClockView(Context context) {
-		super(context);
+	{
+		time = new TimeUtils().getCurrentTime();
 		clockFace = new ClockFace();
 		hourHand = new HourHand();
 		minuteHand = new MinuteHand();
 		secondsHand = new SecondsHand();
+	}
+
+	public AnalogClockView(Context context) {
+		super(context);
 	}
 
 	public Calendar getTime() {
