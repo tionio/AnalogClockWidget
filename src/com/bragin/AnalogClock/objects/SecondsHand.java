@@ -3,8 +3,6 @@ package com.bragin.AnalogClock.objects;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import java.util.Date;
-
 /**
  * Created with IntelliJ IDEA.
  *
@@ -14,11 +12,15 @@ import java.util.Date;
 public class SecondsHand extends AbstractClockObject {
 
 	private final static float lengthPercent = 47.5f;
+	private int seconds;
+
+	public void drawSeconds(Canvas canvas, int seconds) {
+		this.seconds = seconds;
+		draw(canvas);
+	}
 
 	@Override
 	public void draw(Canvas canvas) {
-
-		final long currentSeconds = (System.currentTimeMillis() / 1000) % 60;
 
 		// Минимальная из размеров экрана min(x, y)
 		final int minScreenSize = Math.min(canvas.getWidth(), canvas.getHeight());
@@ -32,11 +34,11 @@ public class SecondsHand extends AbstractClockObject {
 		paint.setStrokeWidth(strokeWidth);
 
 		// Длина стрелки от центра до края - отступ
-		final float length = minScreenSize  * lengthPercent / 100.f;
+		final float length = minScreenSize * lengthPercent / 100.f;
 //		final float length = minScreenSize / 2.f * (1.f - indentPercent / 100.f);
 
 		// Угол наклона стрелки в радианах
-		final float angleInRadians = (float) (Math.PI * (-2.f * (currentSeconds / 60.f) + 1.f));
+		final float angleInRadians = (float) (Math.PI * (-2.f * (seconds / 60.f) + 1.f));
 
 		// Центр экрана по X
 		final float centerX = canvas.getWidth() / 2.f;

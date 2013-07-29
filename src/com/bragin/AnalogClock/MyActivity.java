@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
+import com.bragin.AnalogClock.utils.TimeUtils;
 
 public class MyActivity extends Activity {
 
@@ -21,12 +22,16 @@ public class MyActivity extends Activity {
 				WindowManager.LayoutParams.FLAG_FULLSCREEN
 		);
 //		setContentView(R.layout.main);
+
+		final TimeUtils timeUtils = new TimeUtils();
+
 		final AnalogClockView view = new AnalogClockView(getApplicationContext());
 		setContentView(view);
 
 		runnable = new Runnable() {
 			@Override
 			public void run() {
+				view.setTime(timeUtils.getCurrentTime());
 				view.invalidate();
 				handler.postDelayed(this, 1000);
 			}

@@ -25,7 +25,6 @@ public class ClockFace extends AbstractClockObject {
 		final Paint paint = new Paint();
 		paint.setAntiAlias(true);
 		paint.setARGB(255, 255, 255, 255);
-		paint.setStrokeWidth(strokeWidth);
 
 		// Центр экрана по X
 		final float centerX = canvas.getWidth() / 2.f;
@@ -44,6 +43,8 @@ public class ClockFace extends AbstractClockObject {
 			// Признак пятой секунды
 			// для длинного деления
 			boolean isFivesSecond = k % 5 == 0;
+
+			paint.setStrokeWidth(isFivesSecond ? 2 * strokeWidth : strokeWidth);
 
 			// Угол наклона деления в радианах
 			final float angleInRadians = (float) (2.f * Math.PI * (k / 60.f));
