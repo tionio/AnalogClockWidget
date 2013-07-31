@@ -1,4 +1,4 @@
-package com.bragin.AnalogClock.objects;
+package com.bragin.AnalogClockWidget.objects;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -9,13 +9,13 @@ import android.graphics.Paint;
  * @author a_bragin
  * @since 28.07.13 21:12
  */
-public class MinuteHand extends AbstractClockObject {
+public class HourHand extends AbstractClockObject {
 
-	private final static float lengthPercent = 35.f;
-	private int minutes;
+	private final static float lengthPercent = 25.f;
+	private float hours;
 
-	public void drawMinutes(Canvas canvas, int minutes) {
-		this.minutes = minutes;
+	public void drawHours(Canvas canvas, float hours) {
+		this.hours = hours;
 		draw(canvas);
 	}
 
@@ -25,7 +25,7 @@ public class MinuteHand extends AbstractClockObject {
 		// Минимальная из размеров экрана min(x, y)
 		final int minScreenSize = Math.min(canvas.getWidth(), canvas.getHeight());
 
-		final float strokeWidth = minScreenSize * lengthPercent / 2500.f;
+		final float strokeWidth = minScreenSize * lengthPercent / 2000.f;
 
 		// Задание стиля рисования
 		final Paint paint = new Paint();
@@ -37,7 +37,7 @@ public class MinuteHand extends AbstractClockObject {
 		final float length = minScreenSize * lengthPercent / 100.f;
 
 		// Угол наклона стрелки в радианах
-		final float angleInRadians = (float) (Math.PI * (-2.f * (minutes / 60.f) + 1.f));
+		final float angleInRadians = (float) (Math.PI * (-2.f * (hours / 12.f) + 1.f));
 
 		// Центр экрана по X
 		final float centerX = canvas.getWidth() / 2.f;

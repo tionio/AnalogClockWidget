@@ -1,10 +1,10 @@
-package com.bragin.AnalogClock;
+package com.bragin.AnalogClockWidget;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
-import com.bragin.AnalogClock.utils.TimeUtils;
+import com.bragin.AnalogClockWidget.utils.TimeUtils;
 
 public class MyActivity extends Activity {
 

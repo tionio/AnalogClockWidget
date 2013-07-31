@@ -1,4 +1,4 @@
-package com.bragin.AnalogClock.objects;
+package com.bragin.AnalogClockWidget.objects;
 
 import android.graphics.ColorFilter;
 import android.graphics.drawable.Drawable;

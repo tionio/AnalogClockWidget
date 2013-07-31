@@ -1,4 +1,4 @@
-package com.bragin.AnalogClock;
+package com.bragin.AnalogClockWidget;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -7,7 +7,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.widget.RemoteViews;
-import com.bragin.AnalogClock.utils.TimeUtils;
+import com.bragin.AnalogClockWidget.utils.TimeUtils;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -38,11 +38,12 @@ public class AnalogClockWidget extends AppWidgetProvider {
 		}
 
 		final Timer timer = new Timer();
-		timer.scheduleAtFixedRate(new CustomAnalogClockTimer(context, appWidgetManager), 1, 1000);
+		timer.scheduleAtFixedRate(new CustomAnalogClockTimer(context, appWidgetManager), 1, 60000);
 	}
 
 	private class CustomAnalogClockTimer extends TimerTask {
 
+		public static final int bitmapSize = 450;
 		private AnalogClockView view;
 		private RemoteViews remoteViews;
 		private AppWidgetManager appWidgetManager;
@@ -57,18 +58,17 @@ public class AnalogClockWidget extends AppWidgetProvider {
 			this.remoteViews = new RemoteViews(context.getApplicationContext().getPackageName(), R.layout.main);
 			this.thisWidget = new ComponentName(context, AnalogClockWidget.class);
 			this.timeUtils = new TimeUtils();
-			final Bitmap bitmap = Bitmap.createBitmap(400, 400, Bitmap.Config.ARGB_8888);
+			final Bitmap bitmap = Bitmap.createBitmap(bitmapSize, bitmapSize, Bitmap.Config.ARGB_8888);
 			canvas = new Canvas(bitmap);
 		}
 
 		@Override
 		public void run() {
-			System.gc();
-			bitmap = Bitmap.createBitmap(400, 400, Bitmap.Config.ARGB_4444);
+			bitmap = Bitmap.createBitmap(bitmapSize, bitmapSize, Bitmap.Config.ARGB_4444);
 			canvas.setBitmap(bitmap);
 			view.setTime(timeUtils.getCurrentTime());
-			view.measure(400, 400);
-			view.layout(0, 0, 400, 400);
+			view.measure(bitmapSize, bitmapSize);
+			view.layout(0, 0, bitmapSize, bitmapSize);
 			view.draw(canvas);
 
 			remoteViews.setImageViewBitmap(R.id.imageView1, bitmap);

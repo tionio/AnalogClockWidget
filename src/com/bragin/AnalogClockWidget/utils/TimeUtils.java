@@ -1,4 +1,4 @@
-package com.bragin.AnalogClock.utils;
+package com.bragin.AnalogClockWidget.utils;
 
 import java.util.Calendar;
 
