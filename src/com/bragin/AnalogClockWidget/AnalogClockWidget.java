@@ -4,8 +4,10 @@ import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.os.Bundle;
 import android.widget.RemoteViews;
 import com.bragin.AnalogClockWidget.utils.TimeUtils;
 
@@ -19,6 +21,30 @@ import java.util.TimerTask;
  * @since 29.07.13 23:09
  */
 public class AnalogClockWidget extends AppWidgetProvider {
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		super.onReceive(context, intent);    //To change body of overridden methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void onAppWidgetOptionsChanged(Context context, AppWidgetManager appWidgetManager, int appWidgetId, Bundle newOptions) {
+		super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions);    //To change body of overridden methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void onDeleted(Context context, int[] appWidgetIds) {
+		super.onDeleted(context, appWidgetIds);    //To change body of overridden methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void onEnabled(Context context) {
+		super.onEnabled(context);    //To change body of overridden methods use File | Settings | File Templates.
+	}
+
+	@Override
+	public void onDisabled(Context context) {
+		super.onDisabled(context);    //To change body of overridden methods use File | Settings | File Templates.
+	}
 
 	@Override
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
