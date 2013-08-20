@@ -3,6 +3,7 @@ package com.bragin.AnalogClockWidget;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.widget.ImageView;
+import android.widget.RemoteViews;
 import com.bragin.AnalogClockWidget.objects.ClockFace;
 import com.bragin.AnalogClockWidget.objects.HourHand;
 import com.bragin.AnalogClockWidget.objects.MinuteHand;
@@ -16,6 +17,7 @@ import java.util.Calendar;
  * @author a_bragin
  * @since 28.07.13 20:39
  */
+@RemoteViews.RemoteView
 public class AnalogClockView extends ImageView {
 
 	private Calendar time;

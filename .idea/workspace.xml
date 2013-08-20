@@ -28,19 +28,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b194d24-2207-43f0-abd5-f165ee054062" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/service/AnalogClockUpdateService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AnalogClock.iml" afterPath="$PROJECT_DIR$/AnalogClock.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockWidget.java" afterPath="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockWidget.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java" afterPath="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AnalogClock.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1376925417242" ignored="false" />
+    <file path="/fragment.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1377017425870" ignored="false" />
     <file path="/MyActivity.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375122239961" ignored="false" />
-    <file path="/AnalogClockView.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375135616515" ignored="false" />
+    <file path="/AnalogClockView.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1377013179325" ignored="false" />
     <file path="/AbstractClockObject.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375036196108" ignored="false" />
     <file path="/ClockFace.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375121121417" ignored="false" />
     <file path="/SecondsHand.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375120711667" ignored="false" />
@@ -49,7 +44,7 @@
     <file path="/HourHand.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375121019730" ignored="false" />
     <file path="/project.properties" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375045453417" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1376931486312" ignored="false" />
-    <file path="/Dummy.txt" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1376925167781" ignored="false" />
+    <file path="/Dummy.txt" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1377013170417" ignored="false" />
     <file path="/TimeUtils.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375122396608" ignored="false" />
     <file path="$PROJECT_DIR$/../AnalogClockWidget/AndroidManifest.xml" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375128306425" ignored="false" />
     <file path="$PROJECT_DIR$/../AnalogClockWidget/src/com/bragin/AnalogClockWidget/SimpleActivity.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375128390434" ignored="false" />
@@ -64,6 +59,8 @@
     <file path="/strings.xml" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1375172668144" ignored="false" />
     <file path="/a.xml" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1376924552671" ignored="false" />
     <file path="/AnalogClockUpdateService.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1376932030239" ignored="false" />
+    <file path="C:/CRLIVE/06-Source/cr-modernisation/cr-nap-war/src/test/java/eu/cec/env/kyoto/cr/nap/transaction/sale/service/CreateNewTransactionTicketTest.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1377017208380" ignored="false" />
+    <file path="/CreateNewTransactionTicketTest.java" changelist="9b194d24-2207-43f0-abd5-f165ee054062" time="1377017200273" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,10 +306,8 @@
       <file leaf-file-name="AnalogClockWidget.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockWidget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="68" selection-start="3698" selection-end="3754" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="58" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -320,7 +315,7 @@
       <file leaf-file-name="AnalogClockUpdateService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/service/AnalogClockUpdateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.41580757">
+            <state line="37" column="8" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.18518518">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -328,10 +323,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AnalogClockView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="9" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="manifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/xml/manifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.44">
+            <state line="8" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -343,7 +347,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="290" selection-end="290" vertical-scroll-proportion="-2.72">
+            <state line="8" column="20" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -352,7 +356,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.72">
+            <state line="4" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -386,13 +390,13 @@
         <option value="$PROJECT_DIR$/src/com/bragin/AnalogClock/AnalogClockActivity.java" />
         <option value="$PROJECT_DIR$/src/com/bragin/AnalogClock/AnalogClockWidget.java" />
         <option value="$PROJECT_DIR$/src/com/bragin/AnalogClock/AnalogClockView.java" />
-        <option value="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java" />
         <option value="$PROJECT_DIR$/project.properties" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockWidget.java" />
         <option value="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/service/AnalogClockUpdateService.java" />
+        <option value="$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java" />
       </list>
     </option>
   </component>
@@ -570,6 +574,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -585,46 +591,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AnalogClock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalogClock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalogClock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalogClockWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalogClock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalogClock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnalogClockWidget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -695,6 +661,64 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalogClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalogClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-mdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalogClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalogClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-ldpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalogClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AnalogClock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -716,8 +740,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -736,7 +758,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="HTC_Wildfire" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_4" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
@@ -888,7 +910,7 @@
       <option name="ACTIVITY_CLASS" value="com.bragin.AnalogClock.MyActivity" />
       <option name="MODE" value="do_nothing" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -959,17 +981,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5394883" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5394883" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.53846157" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46051168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46051168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46153846" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46051168" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -984,8 +1003,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24279615" sideWeight="0.5394883" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5394883" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5394883" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.53846157" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1060,40 +1082,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/xml/manifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.5555556" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="561" selection-end="561" vertical-scroll-proportion="0.4814815" />
@@ -1111,9 +1099,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="313" selection-end="313" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="13" column="14" selection-start="313" selection-end="313" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
@@ -1121,14 +1107,14 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="290" selection-end="290" vertical-scroll-proportion="-2.72">
+        <state line="8" column="20" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="-2.72">
+        <state line="4" column="15" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1142,30 +1128,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/xml/manifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="-5.44">
+        <state line="8" column="24" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Tools/adt-bundle-windows-x86_64-20130717/sdk/platforms/android-17/android.jar!/android/content/ContextWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="28" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.33183858">
+        <state line="31" column="28" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.33183858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/AnalogClockWidget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="68" selection-start="3698" selection-end="3754" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="58" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bragin/AnalogClockWidget/service/AnalogClockUpdateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.41580757">
+        <state line="37" column="8" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.18518518">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
