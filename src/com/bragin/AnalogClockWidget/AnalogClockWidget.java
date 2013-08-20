@@ -1,5 +1,7 @@
 package com.bragin.AnalogClockWidget;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
@@ -9,9 +11,10 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.os.Bundle;
 import android.widget.RemoteViews;
+import com.bragin.AnalogClockWidget.service.AnalogClockUpdateService;
 import com.bragin.AnalogClockWidget.utils.TimeUtils;
 
-import java.util.Timer;
+import java.util.Calendar;
 import java.util.TimerTask;
 
 /**
@@ -21,6 +24,9 @@ import java.util.TimerTask;
  * @since 29.07.13 23:09
  */
 public class AnalogClockWidget extends AppWidgetProvider {
+
+	private PendingIntent service = null;
+
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		super.onReceive(context, intent);    //To change body of overridden methods use File | Settings | File Templates.
@@ -48,23 +54,22 @@ public class AnalogClockWidget extends AppWidgetProvider {
 
 	@Override
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
-		super.onUpdate(context, appWidgetManager, appWidgetIds);
+//		super.onUpdate(context, appWidgetManager, appWidgetIds);
 
-		final RemoteViews views = new RemoteViews(context.getApplicationContext().getPackageName(), R.layout.main);
-//		final AnalogClockView view = new AnalogClockView(context);
-//		view.setTime(view.getTime());
-//		view.measure(500, 500);
-//		view.layout(0, 0, 500, 500);
-//		final Bitmap bitmap = Bitmap.createBitmap(500, 500, Bitmap.Config.ARGB_8888);
-//		view.draw(new Canvas(bitmap));
-//
-//		views.setImageViewBitmap(R.id.imageView1, bitmap);
-		for (int appWidgetId : appWidgetIds) {
-			appWidgetManager.updateAppWidget(appWidgetId, views);
+		final AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+
+		final Calendar time = Calendar.getInstance();
+		time.set(Calendar.SECOND, 0);
+		time.set(Calendar.MINUTE, 0);
+		time.set(Calendar.HOUR, 0);
+
+		final Intent intent = new Intent(context, AnalogClockUpdateService.class);
+
+		if (service == null) {
+			service = PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_CANCEL_CURRENT);
 		}
 
-		final Timer timer = new Timer();
-		timer.scheduleAtFixedRate(new CustomAnalogClockTimer(context, appWidgetManager), 1, 60000);
+		alarmManager.setRepeating(AlarmManager.RTC, time.getTime().getTime(), 1000 * 60 /* ms */, service);
 	}
 
 	private class CustomAnalogClockTimer extends TimerTask {
@@ -97,7 +102,7 @@ public class AnalogClockWidget extends AppWidgetProvider {
 			view.layout(0, 0, bitmapSize, bitmapSize);
 			view.draw(canvas);
 
-			remoteViews.setImageViewBitmap(R.id.imageView1, bitmap);
+//			remoteViews.setImageViewBitmap(R.id.imageView1, bitmap);
 			appWidgetManager.updateAppWidget(thisWidget, remoteViews);
 		}
 	}
